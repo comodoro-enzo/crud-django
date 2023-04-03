@@ -1,7 +1,11 @@
-{% extends "base.html" %}
+<form enctype="multipart/form-data" method="post">
 
-{% block titulo %} Editar libro {% endblock %}
 
-{% block contenido %}
-    Formulario para editar libro
-{% endblock %}
+    <div class="mb-3">
+      <label for="nombre" class="form-label">Nombre</label>
+      <input type="text"
+        class="form-control" name="nombre" id="" aria-describedby="helpId" placeholder="Nombre">
+      <small id="helpId" class="form-text text-muted">Help text</small>
+    </div>
+
+</form>
